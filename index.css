@@ -1,0 +1,129 @@
+body {
+  background-image: linear-gradient(to right, #00b09b, #96c93d);
+
+
+}
+
+#main {
+  /* width: 100vw; */
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#starting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+h1{
+    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow:2px 2px 2px black;
+}
+
+#starting button{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    outline: none;
+    border: 1.5px solid rgb(61, 67, 100);
+    border-radius: 5px;
+    background-color: #3abde9;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    cursor: pointer;
+}
+#starting button:hover{
+    background-color: #0ac2ff;
+    border: 1px solid rgb(173, 241, 227);
+}
+
+
+#countmeter{
+    border: 2px solid rgb(78, 92, 104);
+    border-radius: 3px;
+    width: max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    filter: blur(2px);
+
+}
+
+#innerMeter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+#innerMeter label{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#meter{
+    width: 300px;
+    height:25px;
+}
+
+
+
+
+/* counters */
+#counter {
+ 
+  /* margin: auto; */
+  display: flex;
+  flex-direction: column;
+  
+}
+.innerCounter {
+  margin: auto;
+
+  /* background-color: #FF6B6B; */
+  padding: 5px;
+  
+}
+.innerCounter label {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#noOfAttempts,
+#noOfClicks {
+  background: rgba(0, 0, 0, 0);
+  width: px;
+  border: none;
+  color: #ffffff;
+  font-size: 25px;
+  width: 100px;
+}
+
+
+@keyframes tubtub {
+  0%{
+    color: #e2d810
+  }
+  20%{
+    color: #d9138a
+  }
+  40%{
+    color: #12a4d9
+  }
+  60%{
+    color: #322e2f
+  }
+  80%{
+    color: #ffffff;
+
+}
+}

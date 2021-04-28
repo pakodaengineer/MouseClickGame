@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mouse Click Game</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <div id="main">
+    <div id="shapesGrid">
+
+    </div>
+    <div id="starting">
+      <h1>Welcome to Mouse Click Game</h1>
+
+      <button onclick="startGame()" id="startButton">START</button>
+    </div>
+  </div>
+  <div id="countmeter">
+    <div id="counter">
+      <div class="innerCounter">
+        <label for="noOfClicks">Number of clicks: </label>
+        <input id="noOfClicks" type="text" value="0" readonly />
+      </div>
+      <div class="innerCounter">
+        <label for="noOfAttempts">Number of Rounds: </label>
+        <input id="noOfAttempts" type="text" value="1" readonly />
+      </div>
+    </div>
+
+    <div id="innerMeter">
+      <label for="meter">Time</label>
+      <progress id="meter" value="0" max="100"></progress>
+    </div>
+  </div>
+
+  <body>
+    <script src="index.js"></script>
+  </body>
+</html>
